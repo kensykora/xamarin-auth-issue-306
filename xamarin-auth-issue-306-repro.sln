@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin-auth-issue-306-repro.Android", "xamarin-auth-issue-306-repro.Android\xamarin-auth-issue-306-repro.Android.csproj", "{AAC56BC8-C11B-413F-AC98-65101965673D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin-auth-issue-306-repro", "xamarin-auth-issue-306-repro\xamarin-auth-issue-306-repro.csproj", "{C3152208-B2CF-401E-A213-5BF94F62FF73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC56BC8-C11B-413F-AC98-65101965673D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC56BC8-C11B-413F-AC98-65101965673D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC56BC8-C11B-413F-AC98-65101965673D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC56BC8-C11B-413F-AC98-65101965673D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3152208-B2CF-401E-A213-5BF94F62FF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3152208-B2CF-401E-A213-5BF94F62FF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3152208-B2CF-401E-A213-5BF94F62FF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3152208-B2CF-401E-A213-5BF94F62FF73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
