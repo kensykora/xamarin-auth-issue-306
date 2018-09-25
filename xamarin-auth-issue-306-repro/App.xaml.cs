@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Auth;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,11 +8,16 @@ namespace xamarin_auth_issue_306_repro
 {
     public partial class App : Application
     {
+        public static OAuth2Authenticator Authenticator { get; set; }
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainPage
+            {
+                BindingContext = new LoginViewModel()
+            };
         }
 
         protected override void OnStart()

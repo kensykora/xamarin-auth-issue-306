@@ -19,6 +19,8 @@ namespace xamarin_auth_issue_306_repro.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            global::Xamarin.Auth.Presenters.XamarinAndroid.AuthenticationConfiguration.Init(this, savedInstanceState);
+            LoginPresenterService.Initialize(this);
             LoadApplication(new App());
         }
     }
