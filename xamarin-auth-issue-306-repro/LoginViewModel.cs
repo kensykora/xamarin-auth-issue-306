@@ -45,7 +45,7 @@ namespace xamarin_auth_issue_306_repro
             App.Authenticator = new OAuth2Authenticator(
                 CLIENT_ID,
                 clientSecret: null,
-                scope: "openid email",
+                scope: "openid",
                 authorizeUrl: new Uri(AUTH_URL),
                 accessTokenUrl: new Uri(TOKEN_URL),
                 redirectUrl: new Uri(REDIRECT_URL),
